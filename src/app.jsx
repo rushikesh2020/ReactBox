@@ -1,6 +1,6 @@
 import React from 'react';
 import boxData from './data.js';
-import Box from './box.jsx';
+import Box from './Box.jsx';
 
 export default function App(props) {
   const [boxes, setBoxes] = React.useState(boxData);
